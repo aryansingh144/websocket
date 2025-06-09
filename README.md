@@ -27,14 +27,6 @@ Refreshing the page generates a new random username (no persistent login).
 Notes
 Usernames are generated randomly on each client load; no authentication is implemented.
 
-Votes and user sessions are not persisted in a database.
-
-Frequent server restarts may cause clients to reconnect and log multiple connections.
-
-For production use, consider adding authentication and persistent storage.
-
-Troubleshooting
-If you encounter errors related to missing packages, ensure all dependencies are installed with pnpm install.
 
 To avoid nodemon restarting too frequently, configure .nodemon.json to ignore unnecessary files.
 
